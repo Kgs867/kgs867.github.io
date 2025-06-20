@@ -2,35 +2,60 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>챗봇 바로가기</title>
+  <title>SK Magic Campaign</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 100px;
-      background-color: #f4f4f4;
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fff;
     }
-    h1 {
-      color: #333;
+
+    header {
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
     }
-    .chatbot-button {
-      padding: 15px 30px;
-      font-size: 18px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
+
+    header img {
+      height: 40px;
+    }
+
+    nav {
+      margin-left: auto;
+    }
+
+    nav a {
+      margin: 0 1rem;
       text-decoration: none;
-      display: inline-block;
-      margin-top: 20px;
+      color: #333;
+      font-weight: bold;
     }
-    .chatbot-button:hover {
-      background-color: #45a049;
+
+    .hero-banner img {
+      width: 100%;
+      display: block;
     }
   </style>
 </head>
 <body>
+
+  <header>
+    <img src="images.jpeg" alt="NamuhX Logo">
+    <nav>
+      <a href="#">제품</a>
+      <a href="#">이벤트</a>
+      <a href="#">고객지원</a>
+    </nav>
+  </header>
+
+  <!-- ✅ Full-width campaign image (hero banner) -->
+  <div class="hero-banner">
+    <img src="kv_white_pc.jpg" alt="캠페인 이미지 전체">
+  </div>
+
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -38,8 +63,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00DKj00000NZo7P',
-				'MI_CS_CHAT',
-				'https://mi1748569446709.my.site.com/ESWMICSCHAT1750047812464',
+				'NamuhX_Chatbot_For_Github',
+				'https://mi1748569446709.my.site.com/ESWNamuhXChatbotForGit1748593710153',
 				{
 					scrt2URL: 'https://mi1748569446709.my.salesforce-scrt.com'
 				}
@@ -49,9 +74,9 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://mi1748569446709.my.site.com/ESWMICSCHAT1750047812464/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://mi1748569446709.my.site.com/ESWNamuhXChatbotForGit1748593710153/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
- 
+
 
 </body>
 </html>
